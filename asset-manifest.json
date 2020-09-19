@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/code-book/static/css/main.50daadd8.chunk.css",
+    "main.js": "/code-book/static/js/main.689c7f13.chunk.js",
+    "main.js.map": "/code-book/static/js/main.689c7f13.chunk.js.map",
+    "runtime-main.js": "/code-book/static/js/runtime-main.fef7f046.js",
+    "runtime-main.js.map": "/code-book/static/js/runtime-main.fef7f046.js.map",
+    "static/js/2.6b5c8c9c.chunk.js": "/code-book/static/js/2.6b5c8c9c.chunk.js",
+    "static/js/2.6b5c8c9c.chunk.js.map": "/code-book/static/js/2.6b5c8c9c.chunk.js.map",
+    "index.html": "/code-book/index.html",
+    "precache-manifest.65474071de7c616a8bd84b373fa2f9be.js": "/code-book/precache-manifest.65474071de7c616a8bd84b373fa2f9be.js",
+    "service-worker.js": "/code-book/service-worker.js",
+    "static/css/main.50daadd8.chunk.css.map": "/code-book/static/css/main.50daadd8.chunk.css.map",
+    "static/js/2.6b5c8c9c.chunk.js.LICENSE.txt": "/code-book/static/js/2.6b5c8c9c.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/code-book/static/media/logo.0424a39d.png",
+    "static/media/no-of-good-pairs.png": "/code-book/static/media/no-of-good-pairs.aeec7340.png",
+    "static/media/running_sum_1d_array.png": "/code-book/static/media/running_sum_1d_array.eef876c5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fef7f046.js",
+    "static/js/2.6b5c8c9c.chunk.js",
+    "static/css/main.50daadd8.chunk.css",
+    "static/js/main.689c7f13.chunk.js"
+  ]
+}
