@@ -1,0 +1,29 @@
+.Card {
+  height: 200px;
+  width: 250px;
+  border-radius: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.Yellow {
+  background: rgb(196, 173, 4);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 173, 4, 0.8) 0%,
+    rgba(247, 230, 3, 1) 42%,
+    rgba(14, 214, 255, 0.8) 87%
+  );
+}
+
+.Red {
+  background: rgb(196, 4, 4);
+  background: linear-gradient(
+    rgba(230, 4, 4, 0.8) 0%,
+    rgba(247, 91, 3, 1) 42%,
+    rgba(255, 214, 14, 0.8) 87%
+  );
+}

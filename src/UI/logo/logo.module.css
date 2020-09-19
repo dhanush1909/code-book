@@ -1,0 +1,15 @@
+.Logo {
+  text-align: center;
+  letter-spacing: 1.2px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  text-transform: Uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.LogoImg {
+  height: 50px;
+}

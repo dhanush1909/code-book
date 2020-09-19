@@ -1,0 +1,22 @@
+.Nav li {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+  color: #4c4c4c;
+}
+
+.Nav li:hover {
+  color: #346fdd;
+  cursor: pointer;
+}
+
+.Nav li.Active {
+  color: #346fdd;
+}
+
+.Nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}

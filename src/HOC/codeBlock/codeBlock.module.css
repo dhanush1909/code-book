@@ -1,0 +1,18 @@
+.CodeBlock {
+  background-color: #323637;
+  color: #f8f8f2;
+  font-family: "Courier New";
+  line-height: 1.58;
+  padding: 1em;
+  font-size: 1vw;
+  margin: 20px 0;
+  overflow: scroll;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .CodeBlock {
+    font-size: 1.5vw;
+    border-radius: 5px;
+  }
+}

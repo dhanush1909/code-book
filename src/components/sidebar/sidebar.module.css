@@ -1,0 +1,44 @@
+.Sidebar {
+  flex: 0.2;
+  position: sticky;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.Sidebar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavLink li:hover {
+  background-color: #e8e8e8;
+}
+
+.Sidebar ul li {
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid #e8e8e8;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Sidebar {
+    flex: 0.4;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Sidebar {
+    display: none;
+  }
+}

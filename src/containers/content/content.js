@@ -1,0 +1,39 @@
+import React from "react";
+import classes from "./content.module.css";
+import problemImage from "../../assets/problems/running_sum_1d_array.png";
+import CodeBlock from "../../HOC/codeBlock/codeBlock";
+
+export default function content() {
+  return (
+    <div className={classes.Content}>
+      <div className={classes.Question}>
+        Caluculate running sum of the array
+      </div>
+      <img
+        alt="Running sum of 1d array"
+        className={classes.ProblemImage}
+        src={problemImage}
+      ></img>
+      <div className={classes.Solution}>Solution 1:</div>
+      <div className={classes.Answer}>
+        We will use the input array and modify it, and return it as the
+        solution. That way, we don’t have to create a new array. For every index
+        of the array we need to add it with the previous index. Arr[i] = Arr[i]
+        + Arr[i-1].
+      </div>
+      <div>
+        <CodeBlock>
+          <code>
+            {`public int countSum(int[] Arr) {
+  int n = Arr.length;
+  for(int i=1;i<n;i++){
+    Arr[i]=Arr[i]+Arr[i-1];
+  }
+  return Arr[n-1];
+}`}
+          </code>
+        </CodeBlock>
+      </div>
+    </div>
+  );
+}

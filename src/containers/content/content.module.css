@@ -1,0 +1,77 @@
+.Content {
+  flex: 0.6;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 30px 60px;
+  box-sizing: border-box;
+}
+
+.Content .Question {
+  font-size: 2.5vw;
+  margin-bottom: 10px;
+}
+
+.Content .Answer {
+  font-size: 1vw;
+  margin: 10px 0;
+  line-height: 180%;
+}
+
+.Content .Solution {
+  font-size: 1.5vw;
+  color: #a37eba;
+}
+
+.SolutionBlock {
+  margin: 40px 0;
+}
+
+.ProblemImage {
+  width: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+  .Content {
+    flex: 1;
+  }
+
+  .ProblemImage {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .Content .Question {
+    font-size: 4vw;
+  }
+
+  .Content .Answer {
+    font-size: 2vw;
+  }
+
+  .Content .Solution {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Content {
+    flex: 1;
+  }
+
+  .ProblemImage {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .Content .Question {
+    font-size: 5vw;
+  }
+
+  .Content .Answer {
+    font-size: 3vw;
+  }
+
+  .Content .Solution {
+    font-size: 4vw;
+  }
+}

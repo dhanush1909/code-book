@@ -1,0 +1,32 @@
+.Header {
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  padding: 0 40px;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 2px 2px 2px #f0f0f0;
+}
+
+.Hamburger {
+  height: 50%;
+  position: absolute;
+  left: 5vw;
+  display: flex;
+  align-items: center;
+  animation: ease-in 1s all;
+}
+
+.Hamburger.Active {
+  transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 800px) {
+  .Hamburger {
+    display: none;
+  }
+}

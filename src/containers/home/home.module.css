@@ -1,0 +1,15 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+}
+
+.Card {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10vw;
+  box-sizing: border-box;
+}
+
+.Card a {
+  text-decoration: none;
+}
