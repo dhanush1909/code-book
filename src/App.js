@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/code-book">
       <div className="App">
         <Header
           toggleMenu={toggleSideBarHandler}
