@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import classes from "./home.module.css";
 import Sidebar from "../../components/sidebar/sidebar";
 import SideBarMobile from "../../components/sideBarMobile/sideBarMobile";
-import { NoOfGoodPairs, RunningSumOf1DArray } from "../../UI/solutions/index";
+import {
+  NoOfGoodPairs,
+  RunningSumOf1DArray,
+  MaximumSubarray
+} from "../../UI/solutions/index";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 export default class Home extends Component {
@@ -23,6 +27,9 @@ export default class Home extends Component {
           </Route>
           <Route path="/problems/Number-of-Good-Pairs" exact>
             <NoOfGoodPairs />
+          </Route>
+          <Route path="/problems/Maximum-subarray" exact>
+            <MaximumSubarray />
           </Route>
         </Switch>
         <Redirect to="/problems/Running-sum-of-1d-array" />

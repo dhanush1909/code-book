@@ -3,6 +3,16 @@ import classes from "../../containers/content/content.module.css";
 import problemImage from "../../assets/problems/running_sum_1d_array.png";
 import CodeBlock from "../../HOC/codeBlock/codeBlock";
 
+const solution1 = `
+public int[] countSum(int[] Arr) {
+  int n = Arr.length;
+  for(int i=1;i<n;i++){
+    Arr[i]=Arr[i]+Arr[i-1];
+  }
+  return Arr;
+}
+`
+  .trim();
 export default function runningSumOf1DArray() {
   return (
     <div className={classes.Content}>
@@ -23,15 +33,7 @@ export default function runningSumOf1DArray() {
       </div>
       <div>
         <CodeBlock>
-          <code>
-            {`public int[] countSum(int[] Arr) {
-  int n = Arr.length;
-  for(int i=1;i<n;i++){
-    Arr[i]=Arr[i]+Arr[i-1];
-  }
-  return Arr;
-}`}
-          </code>
+          {solution1}
         </CodeBlock>
       </div>
       <div className={classes.Answer}>

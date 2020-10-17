@@ -3,6 +3,61 @@ import classes from "../../containers/content/content.module.css";
 import problemImage from "../../assets/problems/no-of-good-pairs.png";
 import CodeBlock from "../../HOC/codeBlock/codeBlock";
 
+const solution1 = `
+public int numIdenticalPairs(int[] Arr) {
+  int n = Arr.length;
+  int count = 0;
+
+  for(int i=1;i<n-1;i++){
+    for(int j=i+1;j<n;j++){
+      if(Arr[i] == Arr[j]) count++; //increase count if both the elements are same.// 
+    }
+  }
+  return count;
+}
+`.trim();
+
+const solution2 = `
+public int numIdenticalPairs(int[] Arr) {
+  int n = Arr.length;
+  int finalCount = 0;
+  int tempCount = 1;
+  Arrays.sort(Arr);
+
+  for(int i=0;i<n-1;i++){
+    if(Arr[i] == Arr[i+1]){
+        tempCount++;
+    } else {
+        finalCount += (tempCount * (tempCount - 1)) / 2;
+        tempCount = 1;
+    }
+  }
+
+  /* if tempCount is > 1 then we need to 
+  add the no of pairs to the finalCount */
+  finalCount += (tempCount * (tempCount - 1)) / 2;
+  return finalCount;
+}
+`.trim();
+
+const solution3 = `
+public int countSum(int[] Arr) {
+  int finalCount = 0;
+  int[] frequency = new int[101];
+
+  for(int i=0;i<Arr.length;i++){
+
+      // add the count of the number at index i to the final count //
+      finalCount += frequency[Arr[i]];
+
+      // increment the number in the frequency array //
+      frequency[Arr[i]]++;
+  }
+
+  return finalCount;
+}
+`.trim();
+
 export default function noOfGoodPairs() {
   return (
     <div className={classes.Content}>
@@ -20,23 +75,7 @@ export default function noOfGoodPairs() {
         </div>
         <div>
           <CodeBlock>
-            <code>
-              {`public int numIdenticalPairs(int[] Arr) {
-  int n = Arr.length;
-  int count = 0;
-
-  for(int i=1;i<n-1;i++){
-      for(int j=i+1;j<n;j++){
-        if(Arr[i] == Arr[j]) {
-            //increase count if both the elements are same.//
-            count++;  
-        }
-      }
-  }
-
-  return count;
-}`}
-            </code>
+            {solution1}
           </CodeBlock>
         </div>
         <div className={classes.Answer}>
@@ -59,28 +98,7 @@ export default function noOfGoodPairs() {
         </div>
         <div>
           <CodeBlock>
-            <code>
-              {`public int numIdenticalPairs(int[] Arr) {
-  int n = Arr.length;
-  int finalCount = 0;
-  int tempCount = 1;
-  Arrays.sort(Arr);
-
-  for(int i=0;i<n-1;i++){
-    if(Arr[i] == Arr[i+1]){
-        tempCount++;
-    } else {
-        finalCount += (tempCount * (tempCount - 1)) / 2;
-        tempCount = 1;
-    }
-  }
-
-  /* if tempCount is > 1 then we need to 
-  add the no of pairs to the finalCount */
-  finalCount += (tempCount * (tempCount - 1)) / 2;
-  return finalCount;
-}`}
-            </code>
+            {solution2}
           </CodeBlock>
         </div>
         <div className={classes.Answer}>
@@ -99,23 +117,7 @@ export default function noOfGoodPairs() {
         </div>
         <div>
           <CodeBlock>
-            <code>
-              {`public int countSum(int[] Arr) {
-  int finalCount = 0;
-  int[] frequency = new int[101];
-
-  for(int i=0;i<Arr.length;i++){
-
-      // add the count of the number at index i to the final count //
-      finalCount += frequency[Arr[i]];
-
-      // increment the number in the frequency array //
-      frequency[Arr[i]]++;
-  }
-
-  return finalCount;
-}`}
-            </code>
+            {solution3}
           </CodeBlock>
         </div>
         <div className={classes.Answer}>
