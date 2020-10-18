@@ -1,4 +1,4 @@
-Practice data structures and algorithms from a curated set of problems with detailed explanation from brute force to optimal explanation.
+<b>Practice data structures and algorithms from a curated set of problems with detailed explanation from brute force to optimal explanation.<b />
 https://dhanush1909.github.io/code-book/
 
 
