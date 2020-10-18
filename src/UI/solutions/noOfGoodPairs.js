@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../../containers/content/content.module.css";
+import classes from "./index.module.css";
 import problemImage from "../../assets/problems/no-of-good-pairs.png";
 import CodeBlock from "../../HOC/codeBlock/codeBlock";
 
