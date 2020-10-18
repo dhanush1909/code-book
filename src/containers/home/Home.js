@@ -5,7 +5,8 @@ import SideBarMobile from "../../components/sideBarMobile/sideBarMobile";
 import {
   NoOfGoodPairs,
   RunningSumOf1DArray,
-  MaximumSubarray
+  MaximumSubarray,
+  SingleNumber
 } from "../../UI/solutions/index";
 import { Route, Switch, Redirect } from "react-router-dom";
 
@@ -30,6 +31,9 @@ export default class Home extends Component {
           </Route>
           <Route path="/problems/Maximum-subarray" exact>
             <MaximumSubarray />
+          </Route>
+          <Route path="/problems/Single-number" exact>
+            <SingleNumber />
           </Route>
         </Switch>
         <Redirect to="/problems/Running-sum-of-1d-array" />

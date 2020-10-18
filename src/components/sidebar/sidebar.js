@@ -24,6 +24,12 @@ export default function sidebar() {
         >
           <li>Maximum subarray</li>
         </NavLink>
+        <NavLink
+          className={classes.NavLink + " navlink"}
+          to="/problems/Single-number"
+        >
+          <li>Single number</li>
+        </NavLink>
         <li>Problem 4</li>
         <li>Problem 5</li>
         <li>Problem 6</li>

@@ -4,7 +4,7 @@ import problemImage from "../../assets/problems/maximum-subarray.png";
 import CodeBlock from "../../HOC/codeBlock/codeBlock";
 
 const solution1 = `
-public int maximumSubarray(int[] Arr) {'{'}
+public int maximumSubarray(int[] Arr) {
   int n = Arr.length;
   int max = Integer.MIN_VALUE;
 
