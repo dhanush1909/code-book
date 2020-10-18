@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8be96c0dbfeaf257eacbcc0b1d719ef9",
+    "revision": "2b183a5c330db302b9b673bcfab3e809",
     "url": "/code-book/index.html"
   },
   {
-    "revision": "f36bc721a5c163d71f2b",
-    "url": "/code-book/static/css/main.dbf24663.chunk.css"
+    "revision": "5a8b5e02ba9695f5ec35",
+    "url": "/code-book/static/css/main.c493d3e5.chunk.css"
   },
   {
-    "revision": "fda529714ae1fd3886f6",
-    "url": "/code-book/static/js/2.01207f74.chunk.js"
+    "revision": "6689fd50e516fc95521f",
+    "url": "/code-book/static/js/2.ba173064.chunk.js"
   },
   {
     "revision": "971748a654c86e1387914d4e8287e22f",
-    "url": "/code-book/static/js/2.01207f74.chunk.js.LICENSE.txt"
+    "url": "/code-book/static/js/2.ba173064.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f36bc721a5c163d71f2b",
-    "url": "/code-book/static/js/main.f50fa19d.chunk.js"
+    "revision": "5a8b5e02ba9695f5ec35",
+    "url": "/code-book/static/js/main.c8809839.chunk.js"
   },
   {
     "revision": "82f1d4669f796282e329",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eef876c512e3ea6e856bfb3742d3c508",
     "url": "/code-book/static/media/running_sum_1d_array.eef876c5.png"
+  },
+  {
+    "revision": "4907a2809d6a75c6cda0169f2ddf444d",
+    "url": "/code-book/static/media/single-number.4907a280.png"
   }
 ]);

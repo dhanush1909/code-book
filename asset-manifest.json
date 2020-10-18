@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/code-book/static/css/main.dbf24663.chunk.css",
-    "main.js": "/code-book/static/js/main.f50fa19d.chunk.js",
-    "main.js.map": "/code-book/static/js/main.f50fa19d.chunk.js.map",
+    "main.css": "/code-book/static/css/main.c493d3e5.chunk.css",
+    "main.js": "/code-book/static/js/main.c8809839.chunk.js",
+    "main.js.map": "/code-book/static/js/main.c8809839.chunk.js.map",
     "runtime-main.js": "/code-book/static/js/runtime-main.fef7f046.js",
     "runtime-main.js.map": "/code-book/static/js/runtime-main.fef7f046.js.map",
-    "static/js/2.01207f74.chunk.js": "/code-book/static/js/2.01207f74.chunk.js",
-    "static/js/2.01207f74.chunk.js.map": "/code-book/static/js/2.01207f74.chunk.js.map",
+    "static/js/2.ba173064.chunk.js": "/code-book/static/js/2.ba173064.chunk.js",
+    "static/js/2.ba173064.chunk.js.map": "/code-book/static/js/2.ba173064.chunk.js.map",
     "index.html": "/code-book/index.html",
-    "precache-manifest.e8c0621686d0077392eb68e54e72c289.js": "/code-book/precache-manifest.e8c0621686d0077392eb68e54e72c289.js",
+    "precache-manifest.5182d53038f358b2329db78fd9c393b3.js": "/code-book/precache-manifest.5182d53038f358b2329db78fd9c393b3.js",
     "service-worker.js": "/code-book/service-worker.js",
-    "static/css/main.dbf24663.chunk.css.map": "/code-book/static/css/main.dbf24663.chunk.css.map",
-    "static/js/2.01207f74.chunk.js.LICENSE.txt": "/code-book/static/js/2.01207f74.chunk.js.LICENSE.txt",
+    "static/css/main.c493d3e5.chunk.css.map": "/code-book/static/css/main.c493d3e5.chunk.css.map",
+    "static/js/2.ba173064.chunk.js.LICENSE.txt": "/code-book/static/js/2.ba173064.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/code-book/static/media/logo.0424a39d.png",
     "static/media/maximum-subarray.png": "/code-book/static/media/maximum-subarray.9c1e348d.png",
     "static/media/no-of-good-pairs.png": "/code-book/static/media/no-of-good-pairs.aeec7340.png",
-    "static/media/running_sum_1d_array.png": "/code-book/static/media/running_sum_1d_array.eef876c5.png"
+    "static/media/running_sum_1d_array.png": "/code-book/static/media/running_sum_1d_array.eef876c5.png",
+    "static/media/single-number.png": "/code-book/static/media/single-number.4907a280.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fef7f046.js",
-    "static/js/2.01207f74.chunk.js",
-    "static/css/main.dbf24663.chunk.css",
-    "static/js/main.f50fa19d.chunk.js"
+    "static/js/2.ba173064.chunk.js",
+    "static/css/main.c493d3e5.chunk.css",
+    "static/js/main.c8809839.chunk.js"
   ]
 }
