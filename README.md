@@ -1,3 +1,7 @@
+<b>Practice data structures and algorithms from a curated set of problems with detailed explanation from brute force to optimal explanation.<b /><br />
+https://dhanush1909.github.io/code-book/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
