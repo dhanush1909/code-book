@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/code-book/static/css/main.c493d3e5.chunk.css",
-    "main.js": "/code-book/static/js/main.c8809839.chunk.js",
-    "main.js.map": "/code-book/static/js/main.c8809839.chunk.js.map",
+    "main.css": "/code-book/static/css/main.a79fbbc0.chunk.css",
+    "main.js": "/code-book/static/js/main.46572e6b.chunk.js",
+    "main.js.map": "/code-book/static/js/main.46572e6b.chunk.js.map",
     "runtime-main.js": "/code-book/static/js/runtime-main.fef7f046.js",
     "runtime-main.js.map": "/code-book/static/js/runtime-main.fef7f046.js.map",
-    "static/js/2.ba173064.chunk.js": "/code-book/static/js/2.ba173064.chunk.js",
-    "static/js/2.ba173064.chunk.js.map": "/code-book/static/js/2.ba173064.chunk.js.map",
+    "static/js/2.5696b572.chunk.js": "/code-book/static/js/2.5696b572.chunk.js",
+    "static/js/2.5696b572.chunk.js.map": "/code-book/static/js/2.5696b572.chunk.js.map",
     "index.html": "/code-book/index.html",
-    "precache-manifest.5182d53038f358b2329db78fd9c393b3.js": "/code-book/precache-manifest.5182d53038f358b2329db78fd9c393b3.js",
+    "precache-manifest.f2a0fa8aaf1122798c20302f37f639f8.js": "/code-book/precache-manifest.f2a0fa8aaf1122798c20302f37f639f8.js",
     "service-worker.js": "/code-book/service-worker.js",
-    "static/css/main.c493d3e5.chunk.css.map": "/code-book/static/css/main.c493d3e5.chunk.css.map",
-    "static/js/2.ba173064.chunk.js.LICENSE.txt": "/code-book/static/js/2.ba173064.chunk.js.LICENSE.txt",
+    "static/css/main.a79fbbc0.chunk.css.map": "/code-book/static/css/main.a79fbbc0.chunk.css.map",
+    "static/js/2.5696b572.chunk.js.LICENSE.txt": "/code-book/static/js/2.5696b572.chunk.js.LICENSE.txt",
+    "static/media/find-the-duplicate-number.png": "/code-book/static/media/find-the-duplicate-number.09c87fcc.png",
     "static/media/logo.png": "/code-book/static/media/logo.0424a39d.png",
     "static/media/maximum-subarray.png": "/code-book/static/media/maximum-subarray.9c1e348d.png",
     "static/media/no-of-good-pairs.png": "/code-book/static/media/no-of-good-pairs.aeec7340.png",
@@ -20,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fef7f046.js",
-    "static/js/2.ba173064.chunk.js",
-    "static/css/main.c493d3e5.chunk.css",
-    "static/js/main.c8809839.chunk.js"
+    "static/js/2.5696b572.chunk.js",
+    "static/css/main.a79fbbc0.chunk.css",
+    "static/js/main.46572e6b.chunk.js"
   ]
 }
