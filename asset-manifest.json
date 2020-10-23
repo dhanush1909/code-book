@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/code-book/static/css/main.08d958ac.chunk.css",
-    "main.js": "/code-book/static/js/main.236c6134.chunk.js",
-    "main.js.map": "/code-book/static/js/main.236c6134.chunk.js.map",
+    "main.css": "/code-book/static/css/main.369ef0a1.chunk.css",
+    "main.js": "/code-book/static/js/main.a9a04a31.chunk.js",
+    "main.js.map": "/code-book/static/js/main.a9a04a31.chunk.js.map",
     "runtime-main.js": "/code-book/static/js/runtime-main.fef7f046.js",
     "runtime-main.js.map": "/code-book/static/js/runtime-main.fef7f046.js.map",
-    "static/js/2.4af0b98d.chunk.js": "/code-book/static/js/2.4af0b98d.chunk.js",
-    "static/js/2.4af0b98d.chunk.js.map": "/code-book/static/js/2.4af0b98d.chunk.js.map",
+    "static/js/2.8b176992.chunk.js": "/code-book/static/js/2.8b176992.chunk.js",
+    "static/js/2.8b176992.chunk.js.map": "/code-book/static/js/2.8b176992.chunk.js.map",
     "index.html": "/code-book/index.html",
-    "precache-manifest.40c4339af49eb13706d59e8f330039c3.js": "/code-book/precache-manifest.40c4339af49eb13706d59e8f330039c3.js",
+    "precache-manifest.b330fbec7600e61c57a8d739f647a321.js": "/code-book/precache-manifest.b330fbec7600e61c57a8d739f647a321.js",
     "service-worker.js": "/code-book/service-worker.js",
-    "static/css/main.08d958ac.chunk.css.map": "/code-book/static/css/main.08d958ac.chunk.css.map",
-    "static/js/2.4af0b98d.chunk.js.LICENSE.txt": "/code-book/static/js/2.4af0b98d.chunk.js.LICENSE.txt",
+    "static/css/main.369ef0a1.chunk.css.map": "/code-book/static/css/main.369ef0a1.chunk.css.map",
+    "static/js/2.8b176992.chunk.js.LICENSE.txt": "/code-book/static/js/2.8b176992.chunk.js.LICENSE.txt",
     "static/media/find-the-duplicate-number.png": "/code-book/static/media/find-the-duplicate-number.09c87fcc.png",
     "static/media/logo.png": "/code-book/static/media/logo.0424a39d.png",
     "static/media/maximum-subarray.png": "/code-book/static/media/maximum-subarray.9c1e348d.png",
     "static/media/no-of-good-pairs.png": "/code-book/static/media/no-of-good-pairs.aeec7340.png",
     "static/media/running_sum_1d_array.png": "/code-book/static/media/running_sum_1d_array.eef876c5.png",
-    "static/media/single-number.png": "/code-book/static/media/single-number.4907a280.png"
+    "static/media/single-number.png": "/code-book/static/media/single-number.4907a280.png",
+    "static/media/two-sum.png": "/code-book/static/media/two-sum.c6b3f74e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fef7f046.js",
-    "static/js/2.4af0b98d.chunk.js",
-    "static/css/main.08d958ac.chunk.css",
-    "static/js/main.236c6134.chunk.js"
+    "static/js/2.8b176992.chunk.js",
+    "static/css/main.369ef0a1.chunk.css",
+    "static/js/main.a9a04a31.chunk.js"
   ]
 }
