@@ -4,6 +4,7 @@ import MaximumSubarray from "./maximumSubarray";
 import SingleNumber from './singleNumber';
 import FindTheDuplicateNumber from './findTheDuplicateNumber';
 import MiddleOfLinkedList from './middleOfLinkedList';
+import TwoSum from './twoSum';
 
 
-export { RunningSumOf1DArray, NoOfGoodPairs, MaximumSubarray, SingleNumber, FindTheDuplicateNumber, MiddleOfLinkedList };
+export { RunningSumOf1DArray, NoOfGoodPairs, MaximumSubarray, SingleNumber, FindTheDuplicateNumber, MiddleOfLinkedList, TwoSum };

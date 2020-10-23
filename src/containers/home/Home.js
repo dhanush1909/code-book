@@ -8,7 +8,8 @@ import {
   MaximumSubarray,
   SingleNumber,
   FindTheDuplicateNumber,
-  MiddleOfLinkedList
+  MiddleOfLinkedList,
+  TwoSum
 } from "../../UI/solutions/index";
 import { Route, Switch, Redirect } from "react-router-dom";
 
@@ -30,6 +31,9 @@ export default class Home extends Component {
           </Route>
           <Route path="/problems/Number-of-Good-Pairs" exact>
             <NoOfGoodPairs />
+          </Route>
+          <Route path="/problems/Two-sum" exact>
+            <TwoSum />
           </Route>
           <Route path="/problems/Maximum-subarray" exact>
             <MaximumSubarray />

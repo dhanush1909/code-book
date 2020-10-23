@@ -20,6 +20,12 @@ export default function sidebar() {
         </NavLink>
         <NavLink
           className={classes.NavLink + " navlink"}
+          to="/problems/Two-sum"
+        >
+          <li>Two sum</li>
+        </NavLink>
+        <NavLink
+          className={classes.NavLink + " navlink"}
           to="/problems/Maximum-subarray"
         >
           <li>Maximum subarray</li>
