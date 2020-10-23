@@ -46,6 +46,12 @@ function sideBarMobile(props) {
           >
             <li>Find the duplicate number</li>
           </NavLink>
+          <NavLink
+            className={classes.NavLink + " navlink"}
+            to="/problems/Find-middle-of-linked-list"
+          >
+            <li>Find middle of linked list</li>
+          </NavLink>
           <li>Problem 4</li>
           <li>Problem 5</li>
           <li>Problem 6</li>

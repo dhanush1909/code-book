@@ -11,7 +11,7 @@
     margin-bottom: 10px;
   }
   
-  .Content .Answer {
+  .Content .Answer, .Content .QuestionDesc {
     font-size: 1vw;
     margin: 10px 0;
     line-height: 180%;
@@ -67,7 +67,7 @@
       font-size: 5vw;
     }
   
-    .Content .Answer {
+    .Content .Answer, .Content .QuestionDesc {
       font-size: 3vw;
     }
   

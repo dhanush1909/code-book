@@ -7,7 +7,8 @@ import {
   RunningSumOf1DArray,
   MaximumSubarray,
   SingleNumber,
-  FindTheDuplicateNumber
+  FindTheDuplicateNumber,
+  MiddleOfLinkedList
 } from "../../UI/solutions/index";
 import { Route, Switch, Redirect } from "react-router-dom";
 
@@ -38,6 +39,9 @@ export default class Home extends Component {
           </Route>
           <Route path="/problems/Find-the-duplicate-number" exact>
             <FindTheDuplicateNumber />
+          </Route>
+          <Route path="/problems/Find-middle-of-linked-list" exact>
+            <MiddleOfLinkedList />
           </Route>
         </Switch>
         <Redirect to="/problems/Running-sum-of-1d-array" />
