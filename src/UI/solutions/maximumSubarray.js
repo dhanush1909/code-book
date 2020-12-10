@@ -82,7 +82,6 @@ export default function maximumSubarray() {
         </div>
         <div className={classes.Answer}>
           <b>Time Complexity: O(n) </b>we iterate over the array once so O(n).
-          Hence the final complexity will be O(nlogn).
         </div>
       </div>
     </div>
