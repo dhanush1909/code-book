@@ -62,7 +62,7 @@ export default function twoSum() {
                 <div className={classes.Answer}>
                     Using HashMap: Iterate over the array. For every index check if the
                     compliment of the number existes in the map.
-                    If it does not then return the array of value and i.
+                    If it does not then return the array of value and index.
                     else add the number as key and index as value to the Map.
                 </div>
                 <div>
